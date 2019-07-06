@@ -4,6 +4,7 @@ export default () ->
     activeTab = ""
 
     toggleTab = (selectedId) ->
+        if !selectedId then selectedId = Object.keys(tabLinks)[0]
         for id of contentDivs
                 if id is selectedId
                     tabLinks[id].className = 'selected'
