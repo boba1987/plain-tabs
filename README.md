@@ -1,3 +1,3 @@
-# plain-tabs
+# Plain tabs
 
-Coffee script tabs implementation
+Coffee script simple tabs implementation
